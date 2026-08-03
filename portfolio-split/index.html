@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmad shafqat — Full-Stack Developer</title>
+<meta name="description" content="Ahmad shafqat, full-stack developer building clean, reliable products end to end.">
+<link rel="icon" href="public/images/image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand"><span class="brand-mark">AS</span>Ahmad Shafqat</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#top" class="active" data-target="top">Home</a>
+      <a href="#about" data-target="about">About</a>
+      <a href="#services" data-target="services">Skills</a>
+      <a href="#work" data-target="work">Work</a>
+      <a href="#experience" data-target="experience">Experience</a>
+      <a href="#testimonials" data-target="testimonials">Testimonials</a>
+      <a href="#contact" data-target="contact">Contact</a>
+    </div>
+    <a href="#contact" class="btn btn-primary" style="display:inline-flex;">Let's Talk</a>
+    <button class="nav-burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#top">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Skills</a>
+  <a href="#work">Work</a>
+  <a href="#experience">Experience</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary">Let's Talk</a>
+</div>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="reveal is-visible">
+      <div class="hero-badge">Hello, I'm</div>
+      <h1>Ahmad Shafqat<br>
+        <span>Full-Stack Developer
+          <svg viewBox="0 0 220 12" preserveAspectRatio="none"><path d="M2 9 C60 2, 160 2, 218 9" stroke="#B4752E" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+        </span>
+      </h1>
+      <p class="hero-sub">I build clean, reliable web products from database to interface — for founders who need one person to own the whole stack.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View My Work →</a>
+       <a href="./public/images/Ahmad_Shafqat_CV (1).pdf" download="Ahmad_Shafqat_CV.pdf" class="btn btn-line">Download CV ↓</a>
+      </div>
+      <div class="hero-stack">
+        <div class="hero-stack-label">Tech Stack</div>
+        <div class="stack-row">
+          <span class="stack-pill"><span class="dot"></span>React</span>
+          <span class="stack-pill"><span class="dot"></span>Next.js</span>
+          <span class="stack-pill"><span class="dot"></span>TypeScript</span>
+          <span class="stack-pill"><span class="dot"></span>Node.js</span>
+          <span class="stack-pill"><span class="dot"></span>MongoDB</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal d1 is-visible">
+      <div class="avatar-frame">
+        <img src="https://ik.imagekit.io/rnegdq5vb/assest/p2%20bg.png" loading="lazy" alt="Ahmad shafqat pic" width="100px" height="100px" style="position:absolute; inset:0; width:85%; height:100%;">
+        <img class="avatar-leaf" src="https://ik.imagekit.io/rnegdq5vb/assest/leaf.svg" loading="lazy" alt="leaf image" >
+      </div>
+      <div class="avatar-badge"><span class="pulse"></span><span>Available for freelance</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-art reveal">
+      <img src="https://ik.imagekit.io/rnegdq5vb/assest/black.png" loading="lazy" alt="Illustration of a workspace" style="width:100%; height:100%;">
+    </div>
+    <div class="about-copy reveal d1">
+      <div class="eyebrow">About Me</div>
+      <h2>Crafting code. Solving problems. Building the future.</h2>
+      <p>I'm Ahmad Shafqat, a full-stack developer with 2+ years of experience building web applications people actually rely on. I like the parts other people skip — clean data models, honest error states, documentation that saves the next person time.</p>
+      <p>I've spent my career embedded with small product teams, owning features from schema to shipped interface, and I still get a kick out of the moment a query turns into something someone clicks on.</p>
+      <div class="stat-row">
+        <div class="stat-box"><div class="stat-num">2+</div><div class="stat-label">Years Experience</div></div>
+        <div class="stat-box"><div class="stat-num">6+</div><div class="stat-label">Projects Completed</div></div>
+        <div class="stat-box"><div class="stat-num">6+</div><div class="stat-label">Happy Clients</div></div>
+        <div class="stat-box"><div class="stat-num">0</div><div class="stat-label">Open Source Libs</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES / SKILLS -->
+<section id="services" style="background:var(--surface-2);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">What I Do</div>
+      <h2>Skills &amp; Services</h2>
+      <p>A grounded set of tools I reach for on nearly every project, applied end to end.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M8 4L2 12l6 8M16 4l6 8-6 8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Frontend Development</h3>
+        <p>Responsive, accessible interfaces built with React and Next.js.</p>
+      </div>
+      <div class="service-card reveal d1">
+        <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.8"/></svg></div>
+        <h3>Backend Development</h3>
+        <p>Robust APIs and services designed with scalability in mind.</p>
+      </div>
+      <div class="service-card reveal d2">
+        <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="6" rx="8" ry="3" stroke="currentColor" stroke-width="1.8"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6" stroke="currentColor" stroke-width="1.8"/></svg></div>
+        <h3>Database Design</h3>
+        <p>Efficient schemas and queries tuned for real-world performance.</p>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2M10 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>UI/UX Collaboration</h3>
+        <p>Working closely with designers to ship clean, usable interfaces.</p>
+      </div>
+      <div class="service-card reveal d1">
+        <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h7l-1 8 11-14h-7l0-6z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3>Performance Optimization</h3>
+        <p>Faster load times and smoother interactions across devices.</p>
+      </div>
+      <div class="service-card reveal d2">
+        <div class="service-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l3 6 6 1-4.5 4.5L17 20l-5-3-5 3 1-6.5L3 9l6-1 3-6z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+        <h3>Deployment &amp; DevOps</h3>
+        <p>CI/CD pipelines and cloud deployment that stay out of your way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Featured Projects</div>
+      <h2>Selected Work</h2>
+      <p>A few projects chosen for the problem they solved, not just the screenshot.</p>
+    </div>
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <div class="work-thumb">
+          <img src="https://ik.imagekit.io/rnegdq5vb/assest/tiny-auto%20vibe.png" loading="lazy" alt="TaskFlow Pro project preview">
+        </div>
+        <div class="work-body">
+          <h3>AUTO VIBE</h3>
+          <p>CAR showroom platform for building strong connection with client</p>
+          <div class="work-tags"><span>HTML</span><span>CSS</span><span>Javascript</span></div>
+        </div>
+      </div>
+      <div class="work-card reveal d1">
+        <div class="work-thumb">
+          <img src="https://ik.imagekit.io/rnegdq5vb/assest/megaCollection%20tiny.png" loading="lazy" alt="ShopEase project preview">
+        </div>
+        <div class="work-body">
+          <h3>Mega Collection</h3>
+          <p>Modern e-commerce platform with a focus on user experience.</p>
+          <div class="work-tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span><a href="https://www.megacollection.site/" target="_blank">Visit Site</a></span></div>
+        </div>
+      </div>
+      <div class="work-card reveal d2">
+        <div class="work-thumb">
+          <img src="https://ik.imagekit.io/rnegdq5vb/assest/portfolioim%20tiny.png" loading="lazy" alt="Analytics Hub project preview">
+        </div>
+        <div class="work-body">
+          <h3>UXverse Dashboard</h3>
+          <p>Real-time analytics dashboard for monitoring business KPIs.</p>
+          <div class="work-tags"><span>Node js</span><span>PostgreSQL</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="work-more reveal"><a href="https://github.com/ahmad12-ui" target="_blank" class="btn btn-ghost">View All Projects →</a></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="background:var(--surface-2);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Experience</div>
+      <h2>Experience &amp; Education</h2>
+      <p>Where I've worked, and where it started.</p>
+    </div>
+      <div class="exp-item reveal">
+        <div class="exp-year">2024 — 2026</div>
+        <div>
+          <span class="exp-badge">Role</span>
+          <h4>Full-Stack Developer</h4>
+          <div class="org">freelance</div>
+          <p>I build fast, clean websites that turn casual visitors into loyal paying customers.</p>
+        </div>
+      </div>
+      <div class="exp-item reveal">
+        <div class="exp-year">2023 — 2027</div>
+        <div>
+          <span class="exp-badge">Education</span>
+          <h4>B.S. Software Engineering</h4>
+          <div class="org">University of Agriculture, Fasialabad</div>
+          <p>Focus on distributed systems. Graduated with honors.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <div class="eyebrow">Testimonials</div>
+      <h2>What Clients Say</h2>
+      <p>A few notes from people I've built things for.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal">
+        <div class="testi-quote">"</div>
+        <p class="text">Ahmad was the first engineer we've worked with who pushed back on a deadline instead of quietly missing it — and it paid off immediately.</p>
+        <div class="testi-who">
+          <div class="testi-avatar" style="background:#B4752E;">RA</div>
+          <div><div class="testi-name">Rizwan Ahmad</div><div class="testi-role">MegaCollection, Sheikhpura</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal d1">
+        <div class="testi-quote">"</div>
+        <p class="text">Handed over a genuinely messy data problem and got back a schema I still reference when onboarding new hires.</p>
+        <div class="testi-who">
+          <div class="testi-avatar" style="background:#6E7F5C;">AK</div>
+          <div><div class="testi-name">Ahmer khan</div><div class="testi-role">Founder, Ledgerfield</div></div>
+        </div>
+      </div>
+      <div class="testi-card reveal d2">
+        <div class="testi-quote">"</div>
+        <p class="text">Our page speed complaints disappeared, and Alex patiently explained every trade-off to a team that had never heard of SSR.</p>
+        <div class="testi-who">
+          <div class="testi-avatar" style="background:#8C5A22;">YR</div>
+          <div><div class="testi-name">Yuosaf raza</div><div class="testi-role">Product Lead, Nexus</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <div>
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Let's Build Something Amazing Together</h2>
+        <p>Send a few details and I'll reply within a day — usually with a question before a quote.</p>
+        <div class="contact-info">
+          <div><span class="label">Email</span><span>Shafqatahmad676@gmail.com</span></div>
+          <div><span class="label">Phone</span><span>+92 301 8087193</span>|<span>+92 305 5487144</span></div>
+          <div><span class="label">Location</span><span>Fasialabad, Pakistan</span></div>
+          <div><span class="label">Availability</span><span>Open for new opportunities</span></div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form id="contactForm">
+          <div class="form-row2">
+            <div class="form-field"><label for="fname">Your Name</label><input id="fname" name="fname" type="text" placeholder="Jordan Lee" required></div>
+            <div class="form-field"><label for="femail">Your Email</label><input id="femail" name="femail" type="email" placeholder="jordan@company.com" required></div>
+          </div>
+          <div class="form-field"><label for="fsubject">Subject</label><input id="fsubject" name="fsubject" type="text" placeholder="Rebuilding our onboarding flow" required></div>
+          <div class="form-field"><label for="fmessage">Message</label><textarea id="fmessage" name="fmessage" rows="5" placeholder="What are you building, and what's the timeline?" required></textarea></div>
+          <button type="submit" class="btn btn-primary contact-submit">Send Message →</button>
+        </form>
+        <div class="form-success" id="formSuccess"> 
+          <div class="check"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#E8B87A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h4>Message sent</h4>
+          <p>Thanks — I'll reply from uxverse.labs@gmail.com within a day.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <a href="#top" class="brand"><span class="brand-mark">AS</span>Ahmad Shafqat</a>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#" aria-label="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.61.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM3.2 8.75h3.5V21H3.2V8.75zM9.5 8.75h3.36v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.53 0 4.18 2.32 4.18 5.35V21h-3.5v-6.13c0-1.46-.03-3.34-2.04-3.34-2.04 0-2.35 1.6-2.35 3.24V21H9.5V8.75z"/></svg></a>
+        <a href="#" aria-label="X"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.4 8.4L23.3 22h-6.8l-5.3-6.9L5 22H1.9l7.9-9-8.4-11h6.9l4.8 6.3L18.9 2z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-note">© 2026 Ahmad Shafqat. Designed &amp; built with care.</div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // Initialize EmailJS with your Public Key
+            emailjs.init({
+              publicKey: "cWvUwEKHbg88i9JYW",
+            });
+        })();
+    </script>
+</body>
+</html>
